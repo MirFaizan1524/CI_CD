@@ -4,13 +4,14 @@
   "description": "integrating node js with ci/cd piplelines",
   "main": "app.js",
   "scripts": {
-    "start":"nodemon app.js",
-    "test":"jest"
+    "start": "nodemon app.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^17.2.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "jest": "^30.0.4"
   }
 }
