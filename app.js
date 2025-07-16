@@ -16,7 +16,7 @@ app.get('/',(req,res)=>{
 })
 app.get('/home',(req,res)=>{
     console.log("Get route was hit");
-    res.json({success:true,message:"Welcome to Home page"});
+    res.json({success:true,message:"Welcome to Home page of CI/CD"});
 })
 
 
