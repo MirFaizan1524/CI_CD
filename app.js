@@ -14,6 +14,10 @@ app.get('/',(req,res)=>{
     console.log("Get route was hit");
     res.json({success:true,message:"Welcome to the CI CD pipleines"});
 })
+app.get('/home',(req,res)=>{
+    console.log("Get route was hit");
+    res.json({success:true,message:"Welcome to Home page"});
+})
 
 
 app.listen(port,()=>{
