@@ -12,7 +12,7 @@ app.use(express.urlencoded({extended:true}));
 // possible routes:
 app.get('/',(req,res)=>{
     console.log("Get route was hit");
-    res.json({success:true,message:"Welcome to the CI CD pipleines"});
+    res.json({success:true,message:"Welcome to the CI CD pipleines and much more"});
 })
 
 
