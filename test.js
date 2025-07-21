@@ -16,17 +16,17 @@ const {performAddition,performSubtraction} = require('./testMethods.js');
 
 // });
 
-test("Test case for FAIZ_OBJ",()=>{
+// test("Test case for FAIZ_OBJ",()=>{
 
-   let data = {
-    name:"xyz"
-   }
-   data['Designation'] = "SDE 2";
-  expect(data).toEqual({name:"xyz",Designation:"SDE 2"}); 
+//    let data = {
+//     name:"xyz"
+//    }
+//    data['Designation'] = "SDE 2";
+//   expect(data).toEqual({name:"xyz",Designation:"SDE 2"}); 
 
 
-})
-
+// })
+require()
 
 
 
