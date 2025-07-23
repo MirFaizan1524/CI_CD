@@ -4,7 +4,7 @@
   "description": "integrating node js with ci/cd piplelines",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon server.js",
     "test": "jest"
   },
   "author": "",

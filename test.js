@@ -26,7 +26,22 @@ const {performAddition,performSubtraction} = require('./testMethods.js');
 
 
 // })
-require()
+const app = require('./app.js');
+const request  = require('supertest');
+
+
+
+describe("Testing  API'S",()=>{
+  // Case 1.
+    test('checking the reponse of / route',async()=>{
+
+         let response  = await request(app).get("/");
+         
+         let jsonResponse = await JSON.parse(response.text);
+          expect(jsonResponse).toMatchObject({success:true});
+    })     
+
+})
 
 
 
